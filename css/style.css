@@ -50,8 +50,8 @@ h1 {
     display: block;
     margin-block-start: 0.67em;
     margin-block-end: 00.67em;
-    margin-inline-start: 0rem;
-    margin-inline-end: 0rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 .title {
@@ -65,16 +65,16 @@ h1 {
 }
 
 p {
-    margin-block-start: 1rem;
-    margin-block-end: 1rem;
-    margin-inline-start: 0rem;
-    margin-inline-end: 0rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 .dept {
     padding: 0 2%;
     margin: .5rem 0;
-    color: lavender;
+    color:#333;
     font-size: 1rem;
     font-weight: normal;
     font-style: italic;
@@ -85,7 +85,7 @@ img {
     display: block;
     width: 100%;
     border-radius: .3125rem;
-    max-width: 47.188rem;
+    max-width: 755px;
     margin: 0;
 }
 
@@ -125,8 +125,8 @@ p {
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
-    margin-inline-start: 0rem;
-    margin-inline-end: 0rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 .sidebar {
@@ -137,12 +137,19 @@ p {
 
 figure {
     display: block;
-    margin-block-start: 1rem;
-    margin-block-end: 1rem;
-    margin-inline-start: 2.5rem;
-    margin-inline-end: 2.5rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
 }
 
+img {
+    display: block;
+    width: 100%;
+    border-radius: 3125rem;
+    max-width: 755px;
+    margin: 0;
+}
 
 .sub-nav {
     grid-area: sub-nav;
@@ -161,7 +168,7 @@ footer {
 
 .copyright {
     margin-top: 5rem;
-    border-top: .063rem solid #333;
+    border-top: 1px solid #333;
     padding: 2rem 2%;
 }
 
