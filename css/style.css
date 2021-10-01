@@ -189,25 +189,6 @@ footer {
     }
 }
 
-@media (min-width:800px) {
-    .main-heading {
-        font-size: 4rem;
-    }
-    .main-nav {
-        grid-template-columns: repeat(6, 1fr);
-    }
-    .main-nav a {
-        font-size: 1.35rem;
-        padding: .5rem 1rem;
-        width: 70%;
-    }
-    .sidebar {
-        margin-top: 5rem;
-        display:grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
 @media (min-width:1000px) {
     .main-nav {
         grid-template-columns: repeat(6, 1fr);
@@ -232,19 +213,6 @@ footer {
     }
 }
 
-@media (min-width:1050px) {
-    .sidebar {
-        margin-top: 5rem;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .sub-nav {
-        text-align: center;
-    }
-    .sub-nav a {
-        margin: 0 2%;
-    }
-}
 @media (min-width:1250px) {
     .main-heading {
         font-size: 4rem;
@@ -267,48 +235,15 @@ footer {
         grid-area: subsec-3;
     }
 }
- @media (min-width:1500px) {
 
-     body {
-         display: grid;
-         grid-gap: 1%;
-         grid-template-areas:   'header image'
-                                'nav image'
-                                'content-area content-area'
-                                'sub-nav sub-nav'
-                                'footer footer';
-        grid-gap: 1%;                        
-     }
-     .page-header {
-         grid-template-columns: 1fr;
-         grid-area: header;
-     }
-     .main-heading {
-         font-size: 3.75rem;
-     }
-     .main-nav {
-         grid-area: nav;
-         align-items: baseline;
-     }
-     .main-nav a{
-         padding: .5rem;
-         width: inherit;
-     }
-     .content-area {
-         margin: 0;
-         padding: 0;
-         grid-area: content-area;
-     }
-     .copyright {
-         grid-area: footer;
-         display: grid;
-         grid-template-columns: 1fr 1fr;
-         grid-gap: 1%;
-     }
 
-     .copyright :nth-child(2) {
-         text-align: right;
-     }
-
- }
-
+ @media (min-width:1650px) {
+    .main-section {
+        grid-template-areas: 'subsec-1 subsec-2 subsec-3';
+    }
+    .sidebar {
+        margin-top: 5rem;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
