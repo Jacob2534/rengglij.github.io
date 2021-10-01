@@ -1,0 +1,174 @@
+html {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #333;
+    display: block;
+}
+
+body {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 2% auto;
+    width: 98%;
+    max-width: 1920px;
+    box-sizing: border-box;
+    display: block;
+
+}
+
+.page-header {
+    padding-bottom: 2rem;
+    margin: 0;
+}
+header {
+    display: block;
+}
+
+div {
+    display: block;
+}
+
+.main-heading {
+    font-size: 3.25rem;
+    font-weight: 100;
+    margin: 2rem 0;
+    padding: 0 1%;
+    text-transform: uppercase;
+    color: #333;
+    border-bottom: 1rem double #516488;
+}
+
+h1, h2, nav a {
+    font-family: 'Kufam', cursive;
+}
+
+h1 {
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 00.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.title {
+    font-weight: normal;
+    color: #333;
+    display: block;
+    font-size: 2.125rem;
+    font-family: 'kufam', cursive;
+    padding: 0 2%;
+    margin: 0;
+}
+
+p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.dept {
+    padding: 0 2%;
+    margin: .5rem 0;
+    color: #7B7A82;
+    font-size: 1rem;
+    font-weight: normal;
+    font-style: italic;
+    font-family: 'kufam', cursive;
+}
+
+img {
+    display: block;
+    width: 100%;
+    border-radius: .3125rem;
+    max-width: 755px;
+    margin: 0;
+}
+
+.main-nav {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.main-nav a {
+    font-size: 1.5rem;
+    font-weight: normal;
+    text-decoration: none;
+    color: #fee;
+    margin: 5%;
+    padding: 1rem 1.5rem;
+    background-color: #333;
+    border-radius: .3125rem;
+}
+
+main {
+    padding: 3% 1%;
+    display: block;
+}
+
+section {
+    display: block;
+}
+
+h2 {
+    font-weight: 100;
+    color: #000;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.sidebar {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    border-radius: 3125rem;
+    max-width: 755px;
+    margin: 0;
+}
+
+.sub-nav {
+    grid-area: sub-nav;
+    margin: 8rem 0 2rem 0;
+
+}
+
+.sub-nav a {
+    margin: 0 1%;
+    color: #2b63ca;
+}
+
+footer {
+    display: block;
+}
+
+.copyright {
+    margin-top: 5rem;
+    border-top: 1px solid #333;
+    padding: 2rem 2%;
+}
+
+.copyright a {
+    color: #2b63ca;
+}
