@@ -90,6 +90,7 @@ img {
 }
 
 .main-nav {
+    grid-template-columns: repeat(3, 1fr);
     margin: 0;
     padding: 0;
     display: grid;
