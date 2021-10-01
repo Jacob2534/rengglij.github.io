@@ -189,7 +189,7 @@ footer {
     }
 }
 
-@media (min-width:1000px) {
+@media (width:1000px) {
     .main-nav {
         grid-template-columns: repeat(6, 1fr);
 
@@ -213,7 +213,7 @@ footer {
     }
 }
 
- @media (min-width:1650px) {
+ @media (max-width:1650px) {
     .main-section {
         grid-template-areas: 'subsec-1 subsec-2 subsec-3';
     }
