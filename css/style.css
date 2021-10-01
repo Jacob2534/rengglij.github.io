@@ -217,16 +217,7 @@ footer {
     .main-section {
         grid-template-areas: 'subsec-1 subsec-2 subsec-3';
     }
-    .sub-section-1 {
-        grid-area: subsec-1;
 
-    }
-    .sub-section-2 {
-        grid-area: subsec-2;
-    }
-    .sub-section-3 {
-        grid-area: subsec-3;
-    }
     .sidebar {
         margin-top: 5rem;
         display: grid;
