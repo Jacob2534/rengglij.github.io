@@ -217,6 +217,9 @@ footer {
     .main-heading {
         font-size: 4rem;
     }
+    .heading-image {
+        align-items: right;
+    }
 
     .main-section {
         display: grid;
