@@ -311,13 +311,4 @@ footer {
      }
 
  }
- @media (min-width:1650px) {
-     .main-section {
-         grid-template-areas: 'subsec-1 subsec-2 subsec-3';
-     }
-     .sidebar {
-         margin-top: 5rem;
-         display: grid;
-         grid-template-columns: repeat(6, 1fr);
-     }
- }
+
