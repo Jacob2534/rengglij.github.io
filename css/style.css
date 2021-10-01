@@ -39,6 +39,10 @@ div {
     border-bottom: 1rem double #516488;
 }
 
+.heading-image {
+    align-items: right;
+}
+
 h1, h2, nav a {
     font-family: 'Actor', sans-serif;
 }
