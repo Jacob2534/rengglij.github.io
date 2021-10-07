@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Poppins:ital,wght@1,300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: lavender;
+    font-size: 1rem;
+    font-family: 'Merriweather' ,serif;
+    max-width: 1600px;
+    margin: 0rem;
+}
+
+h1 {
+    font-size: 4.65rem;
+    font-family: 'Poppins', sans-serif;
+    margin: 0rem;
+}
+
+h2 {
+    font-size: 2.75rem;
+    color: mediumblue;
+    margin: 1% 0;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.75rem;
+    color:slategray;
+    padding: 1rem 0;
+    margin: 0rem;
+    border-top: 1px solid #ddd;
+    border-bottom:1px solid #ddd;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+h5 span {
+    color: mediumblue;
+}
+
+nav {
+    grid-area:nav;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+nav a {
+    font-size: 1.35rem;
+    padding: .25rem .5rem;
+    outline: none;
+    background-color: slategrey;
+    color: white;
+    margin: 0rem 1% 1% 0;
+    border-radius: .125rem;
+    text-decoration:none;
+    transition: .25s ease;
+}
+
+nav a:focus, 
+nav a:hover,
+nav a:active {
+    background-color: mediumblue;
+    color: black;
+    outline: none;
+    transition: .25s ease;
+}
+
+.resume {
+    padding: 1rem;
+    background-color: white;
+    grid-template-columns: 1fr;
+    grid-template-areas: "header"
+    "image"
+    "nav"
+    "about"
+    "skills"
+    "experience"
+    "education"
+    "contact"
+    "foot";
+}
+
+.grid-area {
+    padding: 1rem;
+}
+
+.header {
+    grid-area: header;
+}
+
+.image {
+    grid-area: image;
+}
+
+.image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.about {
+    grid-area: about;
+}
+
+p {
+    margin-top: 2%;
+}
+
+.skills {
+    grid-area: skills;
+}
+
+.divider {
+    color: slategray;
+}
+
+.experience {
+    grid-area: experience;
+}
+
+.experience h5 {
+    margin-bottom: 0;
+}
+
+.experience ul {
+    margin-top: 0;
+}
+
+.education {
+    grid-area: education;
+}
+
+.contact  {
+    grid-area: contact;
+}
+
+.contact p {
+    margin-bottom: 0rem;
+    padding: 1rem .5rem;
+    background-color: lavenderblush;
+}
+
+.contact a, footer a {
+    color: darkgreen;
+}
+
+footer {
+    grid-area: foot;
+    margin-top: 2rem;
+}
+
+@media (min-width:800px) {
+
+    body {
+        margin: 2% auto;
+        width: 98%;
+    }
+    
+    nav {
+        grid-template-columns: repeat(5,1fr);
+    }
+
+    nav a {
+        padding: .45rem .5rem;
+        margin: 0 4% 1% 0;
+    }
+
+    .image img {
+        min-width: 300px;
+    }
+
+    .resume {
+        display:grid;
+        grid-gap: 5px;
+        grid-template-columns: 2fr, 1fr;
+        grid-template-areas:
+        "header image"
+        "nav nav"
+        "about about"
+        "skills skills"
+        "experience experience"
+        "education education"
+        "contact contact"
+        "foot foot";
+        box-shadow: 0 5px 9px 0 rgba(0, 0,0, 0.35);
+    }
+}
+
+@media (min-width: 1200px) {
+    
+    .resume {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "header image"
+        "nav nav"
+        "about experience"
+        "skills experience"
+        "education experience"
+        "contact contact"
+        "foot foot" ;
+    }
+
+    h1 {
+        font-size: 6rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    nav a {
+        text-align: center;
+    }
+
+    .experiences-list {
+        display: block;
+    }
+
+
+}
+
+@media (min-width:1400px) {
+    h1 {
+        font-size: 7rem;
+
+    }
+
+    h2 {
+        font-size: 3.5rem;
+    }
+
+    .resume {
+        grid-template-columns: 2fr 1fr;
+        grid-template-areas: "header image"
+        "nav nav"
+        "about experience"
+        "skills experience"
+        "education experience"
+        "contact contact"
+        "foot foot";
+    }
+
+    .about, .skills, .education {
+        margin-right: 10%;
+    }
+
+    nav a {
+        padding: .75rem 1rem;
+    }
+}
+
+
+
+
+
+
