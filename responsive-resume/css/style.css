@@ -195,37 +195,6 @@ footer {
     }
 }
 
-@media (min-width: 1200px) {
-    
-    .resume {
-        grid-template-columns: 1fr 1fr;
-        grid-template-areas: "header image"
-        "nav nav"
-        "about experience"
-        "skills experience"
-        "education experience"
-        "contact contact"
-        "foot foot" ;
-    }
-
-    h1 {
-        font-size: 6rem;
-    }
-
-    h2 {
-        font-size: 2.5rem;
-    }
-
-    nav a {
-        text-align: center;
-    }
-
-    .experiences-list {
-        display: block;
-    }
-
-
-}
 
 @media (min-width:1400px) {
     h1 {
