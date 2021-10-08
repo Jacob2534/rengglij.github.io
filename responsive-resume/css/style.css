@@ -160,6 +160,22 @@ footer {
 
 @media (min-width:800px) {
 
+    .resume {
+        display:grid;
+        grid-gap: 5px;
+        grid-template-columns: 2fr, 1fr;
+        grid-template-areas:
+        "header image"
+        "nav nav"
+        "about about"
+        "skills skills"
+        "experience experience"
+        "education education"
+        "contact contact"
+        "foot foot";
+        box-shadow: 0 5px 9px 0 rgba(0, 0,0, 0.35);
+    }
+
     body {
         margin: 2% auto;
         width: 98%;
@@ -178,21 +194,70 @@ footer {
         min-width: 300px;
     }
 
+@media (min-width: 900px) {
+    h1, h2 { 
+        text-align: center;
+    }
+
+    nav a {
+        font-size: 1.5rem;
+        padding: .5rem .75rem;
+        0 6% 1% 0
+    }
+
+    footer {
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer p {
+        margin-top: 0rem;
+    }
+}
+
+@media (min: width 1000px) {
+
+    .experiences-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2%;
+    }
+}
+
+@media (min-width: 1200px) {
+
     .resume {
-        display:grid;
-        grid-gap: 5px;
-        grid-template-columns: 2fr, 1fr;
-        grid-template-areas:
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
         "header image"
         "nav nav"
-        "about about"
-        "skills skills"
-        "experience experience"
-        "education education"
+        "about experience"
+        "skills experience"
+        "education experience"
         "contact contact"
         "foot foot";
-        box-shadow: 0 5px 9px 0 rgba(0, 0,0, 0.35);
     }
+
+    h1 {
+        font-size: 6rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    nav a {
+        text-align: center;
+    }
+
+    .experiences-list {
+        display: block;
+    }
+
+}
+
+
 }
 
 
@@ -212,6 +277,37 @@ footer {
         "nav nav"
         "about skills"
         "experience experience"
+        "education experience"
+        "contact experience"
+        "foot foot";
+    }
+
+    .about, .skills, .education {
+        margin-right: 10%;
+    }
+
+    nav a {
+        padding: .75rem 1rem;
+    }
+}
+
+@media (min-width:1400px) {
+
+    h1 {
+        font-size: 7rem;
+    }
+
+    h2 {
+        font-size: 3.5rem;
+    }
+
+    .resume {
+        grid-template-columns: 2fr 1fr;
+        grid-template-areas: 
+        "header image"
+        "nav nav"
+        "about experience"
+        "skils experience"
         "education experience"
         "contact experience"
         "foot foot";
