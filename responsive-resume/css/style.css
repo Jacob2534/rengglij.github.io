@@ -252,7 +252,7 @@ footer {
     }
 
     .experiences-list {
-        display: flex;
+        display: flexbox;
     }
 
 }
