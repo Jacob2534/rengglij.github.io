@@ -202,7 +202,7 @@ footer {
     nav a {
         font-size: 1.5rem;
         padding: .5rem .75rem;
-        0 6% 1% 0
+        margin:0 6% 1% 0;
     }
 
     footer {
@@ -256,74 +256,4 @@ footer {
     }
 
 }
-
-
 }
-
-
-@media (min-width:1200px) {
-    h1 {
-        font-size: 7rem;
-
-    }
-
-    h2 {
-        font-size: 3.5rem;
-    }
-
-    .resume {
-        grid-template-columns: 2fr 1fr;
-        grid-template-areas: "header image"
-        "nav nav"
-        "about skills"
-        "experience experience"
-        "education experience"
-        "contact experience"
-        "foot foot";
-    }
-
-    .about, .skills, .education {
-        margin-right: 10%;
-    }
-
-    nav a {
-        padding: .75rem 1rem;
-    }
-}
-
-@media (min-width:1400px) {
-
-    h1 {
-        font-size: 7rem;
-    }
-
-    h2 {
-        font-size: 3.5rem;
-    }
-
-    .resume {
-        grid-template-columns: 2fr 1fr;
-        grid-template-areas: 
-        "header image"
-        "nav nav"
-        "about experience"
-        "skils experience"
-        "education experience"
-        "contact experience"
-        "foot foot";
-    }
-
-    .about, .skills, .education {
-        margin-right: 10%;
-    }
-
-    nav a {
-        padding: .75rem 1rem;
-    }
-}
-
-
-
-
-
-
