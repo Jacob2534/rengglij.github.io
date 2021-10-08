@@ -211,7 +211,7 @@ footer {
         grid-template-areas: "header image"
         "nav nav"
         "about experience"
-        "skills skills"
+        "skills experience"
         "education education"
         "contact contact"
         "foot foot";
