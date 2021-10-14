@@ -42,7 +42,7 @@ body {
     background: url(https://i.picsum.photos/id/1015/6000/4000.jpg?hmac=aHjb0fRa1t14DTIEBcoC12c5rAXOSwnVlaA5ujxPQ0I);
     background-repeat: no-repeat;
     background-position: center;
-    clip-path: polygon(100% 50%, 50% 100%, 50% 100%, 50% 0);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 6vw));
     top: calc(var(--top-position) - 20%);
     padding: 12rem 0;
     text-align: center;
@@ -55,17 +55,17 @@ body {
 .heading h1 a {
     font-family: var(--secondary-font);
     font-size: 6rem;
-    color: dimgrey;
+    color: grey;
     text-decoration:none; 
 }
 
 .heading h1 a:hover {
-    color: darksalmon;
+    color: slategray, slategrey;
 
 }
 
 .letter-box {
-    color: dimgray;
+    color: gray;
 }
 
 .heading p {
@@ -80,14 +80,14 @@ body {
     }
 
     .heading {
-        clip-path: polygon(100% 50%, 50% 100%, 50% 100%, 50% 0);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 8vw));
         top: calc(var(--top-position) - 20%);
     }
 }
 
 @media (min-width: 800px) {
     .heading {
-        clip-path: polygon(100% 50%, 50% 100%, 50% 100%, 50% 0);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 10vw));
         top: calc(var(--top-position) - 15%);
     }
 
@@ -98,7 +98,7 @@ body {
 
 @media (min-width:1000px) {
     .heading {
-        clip-path: polygon(100% 50%, 50% 100%, 50% 100%, 50% 0);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 10vw));
         top: calc(var(--top-position) - 10%);
     }
 }
