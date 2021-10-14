@@ -39,7 +39,7 @@ body {
 .heading {
     position: absolute;
     width: 100%;
-    background: url(https://i.picsum.photos/id/1015/6000/4000.jpg?hmac=aHjb0fRa1t14DTIEBcoC12c5rAXOSwnVlaA5ujxPQ0I);
+    background-image: url(https://i.picsum.photos/id/1015/6000/4000.jpg?hmac=aHjb0fRa1t14DTIEBcoC12c5rAXOSwnVlaA5ujxPQ0I);
     background-repeat: no-repeat;
     background-position: center;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 6vw));
