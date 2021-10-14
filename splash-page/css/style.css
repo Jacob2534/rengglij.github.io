@@ -5,7 +5,7 @@
     --main-font:'Open Sans', sans-serif;
     --secondary-font:'Montserrat', sans-serif;
     --main-color: black;
-    --main-background-color: lightgrey;
+    --main-background-color: lavender;
     --top-position: 30%;
     font-size: 16px;
 }
@@ -55,17 +55,17 @@ body {
 .heading h1 a {
     font-family: var(--secondary-font);
     font-size: 6rem;
-    color: rgba(200, 200, 200, 0.5);
+    color: dimgrey;
     text-decoration:none; 
 }
 
 .heading h1 a:hover {
-    color: rgba(10,10,.5,.5);
+    color: steelblue;
 
 }
 
 .letter-box {
-    color: violet;
+    color: dimgray;
 }
 
 .heading p {
@@ -124,12 +124,12 @@ body {
     }
 
     .heading h1 a:hover {
-        color: rgba(255,255,255,.5);
+        color: darkslategray;
 
     }
 
     .heading p {
-        color: black;
+        color: darkslategrey;
         font-size: 3rem;
     }
 }
