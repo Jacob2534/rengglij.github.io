@@ -42,7 +42,7 @@ body {
     background: url(https://i.picsum.photos/id/1015/6000/4000.jpg?hmac=aHjb0fRa1t14DTIEBcoC12c5rAXOSwnVlaA5ujxPQ0I);
     background-repeat: no-repeat;
     background-position: center;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 6vw));
+    clip-path: polygon(100% 50%, 50% 100%, 50% 100%, 50% 0);
     top: calc(var(--top-position) - 20%);
     padding: 12rem 0;
     text-align: center;
@@ -60,7 +60,7 @@ body {
 }
 
 .heading h1 a:hover {
-    color: steelblue;
+    color: darksalmon;
 
 }
 
@@ -80,14 +80,14 @@ body {
     }
 
     .heading {
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 8vw));
-        top: calc(var(--top-position) - 17%);
+        clip-path: polygon(100% 50%, 50% 100%, 50% 100%, 50% 0);
+        top: calc(var(--top-position) - 20%);
     }
 }
 
 @media (min-width: 800px) {
     .heading {
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 10vw));
+        clip-path: polygon(100% 50%, 50% 100%, 50% 100%, 50% 0);
         top: calc(var(--top-position) - 15%);
     }
 
@@ -98,8 +98,8 @@ body {
 
 @media (min-width:1000px) {
     .heading {
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 10vw));
-        top: calc(var(--top-position) - 13%);
+        clip-path: polygon(100% 50%, 50% 100%, 50% 100%, 50% 0);
+        top: calc(var(--top-position) - 10%);
     }
 }
 
@@ -120,16 +120,16 @@ body {
 
     .heading h1 a {
         font-size: 12rem;
-        color: rgb(40, 40, 40);
+        color: black;
     }
 
     .heading h1 a:hover {
-        color: darkslategray;
+        color: lightslategray;
 
     }
 
     .heading p {
-        color: darkslategrey;
+        color: lightslategrey;
         font-size: 3rem;
     }
 }
