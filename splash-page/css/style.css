@@ -60,12 +60,12 @@ body {
 }
 
 .heading h1 a:hover {
-    color: grey,gray;
+    color: lightslategrey;
 
 }
 
 .letter-box {
-    color: lightslategrey;
+    color: black;
 }
 
 .heading p {
@@ -126,6 +126,10 @@ body {
     .heading h1 a:hover {
         color: lightslategray;
 
+    }
+
+    .letter-box {
+        color: lightslategrey;
     }
 
     .heading p {
