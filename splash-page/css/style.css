@@ -5,7 +5,7 @@
     --main-font:'Open Sans', sans-serif;
     --secondary-font:'Montserrat', sans-serif;
     --main-color: black;
-    --main-background-color: lightslategrey;
+    --main-background-color: gray;
     --top-position: 30%;
     font-size: 16px;
 }
@@ -124,7 +124,7 @@ body {
     }
 
     .heading h1 a:hover {
-        color: lightslategray;
+        color: lightslategrey;
 
     }
 
