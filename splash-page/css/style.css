@@ -5,7 +5,7 @@
     --main-font:'Open Sans', sans-serif;
     --secondary-font:'Montserrat', sans-serif;
     --main-color: black;
-    --main-background-color: lavender;
+    --main-background-color: lightslategray;
     --top-position: 30%;
     font-size: 16px;
 }
@@ -42,7 +42,7 @@ body {
     background-image: url(https://i.picsum.photos/id/1015/6000/4000.jpg?hmac=aHjb0fRa1t14DTIEBcoC12c5rAXOSwnVlaA5ujxPQ0I);
     background-repeat: no-repeat;
     background-position: center;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 6vw));
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 94%);
     top: calc(var(--top-position) - 20%);
     padding: 12rem 0;
     text-align: center;
@@ -54,13 +54,13 @@ body {
 
 .heading h1 a {
     font-family: var(--secondary-font);
-    font-size: 6rem;
+    font-size: 5rem;
     color: grey;
     text-decoration:none; 
 }
 
 .heading h1 a:hover {
-    color: slategray, slategrey;
+    color: grey,gray;
 
 }
 
@@ -80,25 +80,25 @@ body {
     }
 
     .heading {
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 8vw));
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 92%);
         top: calc(var(--top-position) - 20%);
     }
 }
 
 @media (min-width: 800px) {
     .heading {
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 10vw));
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
         top: calc(var(--top-position) - 15%);
     }
 
     .heading h1 a {
-        font-size: 8rem;
+        font-size: 10rem;
     }
 }
 
 @media (min-width:1000px) {
     .heading {
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 10vw));
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
         top: calc(var(--top-position) - 10%);
     }
 }
@@ -119,7 +119,7 @@ body {
     }
 
     .heading h1 a {
-        font-size: 12rem;
+        font-size: 10rem;
         color: black;
     }
 
@@ -129,7 +129,7 @@ body {
     }
 
     .heading p {
-        color: lightslategrey;
-        font-size: 3rem;
+        color: lightslategrey,black;
+        font-size: 5rem;
     }
 }
