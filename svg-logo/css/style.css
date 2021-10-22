@@ -25,10 +25,10 @@ body {
     margin: 0;
     width: 1000px;
     height: 600px;
-    max-width: 1200px;
+    max-width: 1000px;
 }
 
-@media (min-width:1250px) {
+@media (min-width:1200px) {
     .logo img {
         border: 2px solid black;
     }
