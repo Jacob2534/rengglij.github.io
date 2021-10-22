@@ -23,12 +23,12 @@ body {
 .logo img {
     display: block;
     margin: 0;
-    width: 1400px;
-    height: 1000px;
-    max-width: 1400px;
+    width: 1200px;
+    height: 900px;
+    max-width: 1200px;
 }
 
-@media (min-width:1400px) {
+@media (min-width:1250px) {
     .logo img {
         border: 2px solid black;
     }
