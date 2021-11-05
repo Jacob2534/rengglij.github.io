@@ -1,9 +1,5 @@
-@font-face {
-    font-family: 'Zen Kurenaido';
-    src: url(https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap);
-    font-weight:100 900 ;
-    font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
 
 @font-face {
     font-family: 'Roboto Mono';
@@ -13,8 +9,8 @@
 }
 
 :root {
-    --main-font: Zen Kurenaido, sans-serif;
-    --secondary-font:Roboto Mono, monospace;
+    --main-font: 'Zen Kurenaido', sans-serif;
+    --secondary-font:'Roboto Mono', monospace;
     --main-color:#333;
     --main-link-color: salmon;
     --main-background-color: #eee;
@@ -41,7 +37,7 @@ a {
 .page-header {
     padding: 1%;
     display: grid;
-    grid-template-areas: 'social media cart-account'
+    grid-template-areas: 'social-media cart-account'
                          'logo logo'
                          'page-sub-header page-sub-header';
 }
@@ -76,6 +72,7 @@ a {
 }
 
 .logo > a > img {
+    align-content: center;
     width:100%;
 }
 
@@ -185,6 +182,7 @@ a {
 
 @media (min-width:600px) {
     .logo {
+        align-content: center;
         margin: 0 auto;
         width:90%;
     }
@@ -218,7 +216,8 @@ a {
     }
 
     .logo {
-        margin: 0 auto;
+        align-content: center;
+        margin: auto;
         width: 80%;
     }
 
@@ -232,7 +231,7 @@ a {
     }
 
     .gallery-item-3, .gallery-item-4 {
-        margin-top: -61%;
+        margin-top: -60%;
     }
 
     .footer-nav a {
@@ -256,7 +255,7 @@ a {
     }
 
     .gallery-item-3, .gallery-item-4 {
-        margin-top: -47.7%;
+        margin-top: -50%;
     }
 }
 
@@ -267,11 +266,11 @@ a {
     }
 
     .gallery-item-1, .gallery-item-2 {
-        margin-top: 0;
+        margin-top: -30%;
     }
 
     .gallery-item-3, .gallery-item-4 {
-        margin-top: -31.2%;
+        margin-top: -30%;
     }
 }
 
@@ -303,17 +302,17 @@ a {
     }
 
     .gallery-item img {
-        transition: .75s ease;
+        transition: .50s ease;
     }
 
     .overlay {
         background-color: transparent;
-        transition: .75s ease;
+        transition: .50s ease;
     }
 
     .gallery-item:hover overlay, .gallery-item:hover img, .overlay:hover {
         opacity: .5;
-        transition: .75s ease;
+        transition: .50s ease;
     } 
 
     .gallery {
@@ -337,7 +336,7 @@ a {
     }
 
     .footer-nav a {
-        transition: .75s ease;
+        transition: .50s ease;
     }
 
     .footer-nav :nth-child(odd):focus,.footer-nav:nth-child(odd):active,.footer-nav:nth-child(odd):hover {
@@ -361,6 +360,7 @@ a {
     }
 
     .logo {
+        align-content: center;
         width: 60%;
     }
 }
