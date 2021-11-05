@@ -187,6 +187,10 @@ a {
         width:90%;
     }
 
+    .logo > a > img{
+        align-items: center;
+    }
+
     .gallery {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -194,11 +198,11 @@ a {
     }
 
     .gallery-item-1,.gallery-item-2 {
-        margin-top: -15%;
+        margin-top: -50%;
     }
 
     .gallery-item-3,.gallery-item-4 {
-        margin-top: -78%;
+        margin-top: -50%;
     }
 
     .page-footer {
