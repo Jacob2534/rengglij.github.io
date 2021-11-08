@@ -22,6 +22,11 @@ header {
     display: block;
 }
 
+.heading-image {
+    margin: 0 auto;
+    width: 100%;
+}
+
 div {
     display: block;
 }
