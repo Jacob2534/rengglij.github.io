@@ -75,12 +75,14 @@ a {
     max-width: 30px;
 }
 
+.logo {
+    margin: 4% auto;
+    width: 100%;
+}
+
 .logo > a > img {
-    z-index: 1;
-    display: block;
-    align-self: center;
     width:100%;
-    margin: 0 auto;
+    
 }
 
 .page-sub-header {
@@ -189,19 +191,14 @@ a {
 
 @media (min-width:600px) {
     .logo {
-        display: block;
-        align-self: center;
-        margin: 0 auto;
-        width:90%;
+        margin: 4% auto;
+        width: 100%;
     }
-
-    .logo > a > img{
-        z-index: 1;
-        align-self: center;
-        display: block;
-        margin: 0 auto;
+    
+    .logo > a > img {
+        width:100%;
+        
     }
-
     .gallery {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -231,18 +228,13 @@ a {
     }
 
     .logo {
-        z-index: 1;
-        display: block;
-        align-self: center;
-        margin:0 auto;
-        width: 80%;
+        margin: 4% auto;
+        width: 100%;
     }
-
-    .logo > a > img{
-        z-index: 1;
-        align-self: center;
-        margin: 0 auto;
-        display: block;
+    
+    .logo > a > img {
+        width:100%;
+        
     }
 
     .gallery-item > figure > img {
@@ -266,16 +258,13 @@ a {
 @media (min-width:800px) {
 
     .logo {
-        align-self: center;
-        display: block;
-        margin: 0 auto;
+        margin: 4% auto;
+        width: 100%;
     }
-
-    .logo > a > img{
-        z-index: 1;
-        align-self: center;
-        display: block;
-        margin: 0 auto;
+    
+    .logo > a > img {
+        width:100%;
+        
     }
 
     body {
@@ -299,16 +288,13 @@ a {
 
 @media (min-width:900px) {
     .logo {
-        align-self: center;
-        display: block;
-        margin: 0 auto;
+        margin: 4% auto;
+        width: 100%;
     }
-
-    .logo > a > img{
-        z-index: 1;
-        align-self: center;
-        display: block;
-        margin: 0 auto;
+    
+    .logo > a > img {
+        width:100%;
+        
     }
 
 }
@@ -320,31 +306,26 @@ a {
     }
 
     .logo {
-        align-self: center;
-        display: block;
-        margin: 0 auto;
+        margin: 4% auto;
+        width: 100%;
     }
-
-    .logo > a > img{
-        z-index: 1;
-        align-self: center;
-        display: block;
-        margin: 0 auto;
+    
+    .logo > a > img {
+        width:100%;
+        
     }
 }
 
 @media (min-width: 1200px) {
 
     .logo {
-        align-self: center;
-        display: block;
-        margin: 0 auto;
+        margin: 4% auto;
+        width: 100%;
     }
-
-    .logo > a > img{
-        align-self: center;
-        display: block;
-        margin: 0 auto;
+    
+    .logo > a > img {
+        width:100%;
+        
     }
 
     body {
@@ -425,15 +406,12 @@ a {
     }
 
     .logo {
-        align-self: center;
-        display: block;
-        margin: 0 auto;
-        width: 60%;
+        margin: 4% auto;
+        width: 100%;
     }
-
+    
     .logo > a > img {
-        align-self: center;
-        display: block;
-        margin: 0 auto;
+        width:100%;
+        
     }
 }
