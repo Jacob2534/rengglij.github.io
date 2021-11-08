@@ -78,6 +78,7 @@ a {
 .logo {
     margin: 4% auto;
     width: 100%;
+    grid-area: logo;
 }
 
 .logo > a > img {
