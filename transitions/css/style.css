@@ -308,11 +308,11 @@ a {
 
     .logo {
         margin: 4% auto;
-        width: 100%;
+        width: 90%;
     }
     
     .logo > a > img {
-        width:100%;
+        width:90%;
         
     }
 }
@@ -321,11 +321,11 @@ a {
 
     .logo {
         margin: 4% auto;
-        width: 100%;
+        width: 90%;
     }
     
     .logo > a > img {
-        width:100%;
+        width:90%;
         
     }
 
@@ -388,14 +388,14 @@ a {
 
     .footer-nav :nth-child(odd):focus,.footer-nav:nth-child(odd):active,.footer-nav:nth-child(odd):hover {
         color:#333;
-        transform: rotate(2deg);
-        transition: .75s ease;
+        transform: rotate(4deg);
+        transition: .50s ease;
     }
 
     .footer-nav :nth-child(even):focus,.footer-nav:nth-child(even):active,.footer-nav:nth-child(even):hover {
         color: #333;
-        transform: rotate(2deg);
-        transition: .75s ease;
+        transform: rotate(4deg);
+        transition: .50s ease;
 
     }
     
@@ -408,11 +408,11 @@ a {
 
     .logo {
         margin: 4% auto;
-        width: 100%;
+        width: 90%;
     }
     
     .logo > a > img {
-        width:100%;
+        width:90%;
         
     }
 }
