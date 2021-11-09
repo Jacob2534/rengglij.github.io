@@ -222,7 +222,7 @@ footer {
     }
 }
 
-@media (min-width:1250px) {
+@media (min-width:1200px) {
     .main-heading {
         font-size: 4rem;
     }
@@ -232,7 +232,7 @@ footer {
     }
 
     .heading-image {
-        margin: 2% auto;
+        align-self: center;
     }
 
     .main-section {
@@ -256,7 +256,7 @@ footer {
 
 }
 
- @media (min-width:1650px) {
+ @media (min-width:1400px) {
     .main-section {
         grid-template-areas: 'subsec-1 subsec-2 subsec-3';
     }
