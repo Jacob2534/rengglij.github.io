@@ -179,8 +179,14 @@ footer {
 
 @media (min-width:600px) {
     .main-heading {
+        margin: 2% auto;
         font-size: 3.75rem;
     }
+
+    .page-header {
+        margin: 2% auto;
+    }
+
     .main-nav {
         grid-template-columns:repeat(3, 1fr);
     }
@@ -202,6 +208,7 @@ footer {
         width: 80%;
     }
     .page-header {
+        margin: 2% auto;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap:1%;
@@ -219,8 +226,13 @@ footer {
     .main-heading {
         font-size: 4rem;
     }
+
+    .page-header {
+        margin: 2% auto;
+    }
+
     .heading-image {
-        align-items: right;
+        margin: 2% auto;
     }
 
     .main-section {
@@ -247,6 +259,10 @@ footer {
  @media (min-width:1650px) {
     .main-section {
         grid-template-areas: 'subsec-1 subsec-2 subsec-3';
+    }
+
+    .page-header {
+        margin: 2% auto;
     }
 
     .sidebar {
