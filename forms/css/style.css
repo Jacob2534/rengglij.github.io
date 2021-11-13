@@ -318,6 +318,10 @@ input[type=reset]:hover {
         grid-template-columns: 2fr 4fr 2fr;
     }
 
+    .search-bar, .social-media, .cart-account {
+        grid-area: auto;
+    }
+
     .contact-form {
         margin: 0 auto 30% auto;
         width: 90%;
