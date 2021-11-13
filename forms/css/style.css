@@ -123,40 +123,6 @@ path {
     grid-area: page-sub-header;
 }
 
-.gallery {
-    margin: 0;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: .5rem;
-    filter: drop-shadow(.5rem .5rem 1rem #333);
-}
-
-.gallery-item {
-    margin: auto;
-    position: relative;
-    width: 100%;
-    background-color: transparent;
-}
-
-.gallery-item > figure {
-    margin: 0;
-    width: 100%;
-}
-
-.gallery-item > figure > img {
-    width: 100%;
-    clip-path: inset(15% 0 35% 0);
-}
-
-.gallery-item-1 {
-    margin-top: -15%;
-}
-
-.gallery-item-2,.gallery-item-3, .gallery-item-4 {
-    margin-top: -45%;
-}
-
 /* Fade */
 
 .overlay { 
@@ -248,10 +214,6 @@ fieldset {
     resize: vertical;
 }
 
-.contact-form input[type=checkbox] {
-
-}
-
 .contact-form input[type=submit] {
     background-color: salmon;
 }
@@ -279,20 +241,6 @@ input[type=reset]:hover {
         margin: 0 auto;
         width: 90%;
     }
-        
-    .gallery {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 0;
-    }
-
-    .gallery-item-1,.gallery-item-2 {
-        margin-top: -15%;
-    }
-
-    .gallery-item-3,.gallery-item-4 {
-        margin-top: -45%;
-    }
 
     .page-footer {
         margin: -10% 0 0 0;
@@ -315,19 +263,6 @@ input[type=reset]:hover {
     .logo {
         margin: 0 auto;
         width: 80%;
-    }
-
-    .gallery-item > figure > img {
-        width: 100%;
-        clip-path: inset(10% 0 30% 0);
-    }
-
-    .gallery-item-1, .gallery-item-2 {
-        margin-top: -20%;
-    }
-
-    .gallery-item-3, .gallery-item-4 {
-        margin-top: -45%;
     }
 
     .footer-nav a {
@@ -383,23 +318,6 @@ input[type=reset]:hover {
         grid-template-columns: 2fr 4fr 2fr;
     }
 
-    .search-bar,.social-media,.cart-account {
-        grid-area: auto;
-    }
-
-    .gallery-item > figure > img {
-        width: 100%;
-        clip-path: inset(5% 0 25% 0);
-    }
-
-    .gallery-item-1, .gallery-item-2 {
-        margin-top: -15%;
-    }
-
-    .gallery-item-3, .gallery-item-4 {
-        margin-top: -30%;
-    }
-
     .contact-form {
         margin: 0 auto 30% auto;
         width: 90%;
@@ -447,34 +365,9 @@ input[type=reset]:hover {
         background-color: transparent;
     }
 
-    .gallery-item img {
-        transition: .50s ease;
-    }
-
     .overlay {
         background-color: transparent;
         transition: .50s ease;
-    }
-
-    .gallery-item:hover overlay, .gallery-item:hover img, .overlay:hover {
-        opacity: .5;
-        transition: .50s ease;
-    } 
-
-    .gallery {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-gap: 0;
-        margin: 5% 0 10% 0;
-    }
-
-    .gallery-item > figure > img {
-        width: 100%;
-        clip-path: none;
-    }
-
-    .gallery-item-1,.gallery-item-2, .gallery-item-3, .gallery-item-4 {
-        margin-top: 0;
     }
 
     .page-footer {
