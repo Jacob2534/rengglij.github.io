@@ -369,10 +369,12 @@ fieldset {
 
 .contact-form input[type=submit] {
     background-color: salmon;
+    display: flexbox;
 }
 
 .contact-form input[type=reset] {
     background-color: darkgreen;
+    display: flexbox;
 }
 
 .contact-form input[type=submit],
