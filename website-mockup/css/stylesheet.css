@@ -87,38 +87,24 @@ a {
 
 /* Home Page Styling */
 
-.page-header {
-    padding: 1%;
-    display: grid;
-    grid-template-areas: 'social-media cart-account'
-                            'search-bar search-bar'
-                                  'logo logo'
-                         'page-sub-header page-sub-header';
-}
-
 .top-bar {
+    display: grid;
     align-items: center;
     padding: 0 1%;
 }
 
 .social-media {
-    display:flex;
-    align-items: center;
     padding: 0 1%;
+    grid-area: 1 / 1 / 2 / 2;
 }
 
 .social-media a {
     display: inline-block;
     padding: 2%;
-    grid-area: social-media;
 }
 
 .cart-account {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    padding: 2%;
-    grid-area: cart-account;
+    grid-area: 1 / 2 / 2 / 3;
 }
 
 .cart-account a {
@@ -131,10 +117,12 @@ a {
 }
 
 .search-bar {
-    grid-area: search-bar;
+    grid-area: 2 / 1 / 2 / 3;
     height: 1.5rem;
     display: block;
     border: 2px solid #333;
+    border-radius: 5px;
+    border-color: #333;
     display: flex;
     padding: .125rem;
 }
@@ -157,7 +145,7 @@ a {
 }
 
 .logo {
-    margin: 4% auto;
+    margin:0 auto;
     width: 100%;
     grid-area: logo;
 }
