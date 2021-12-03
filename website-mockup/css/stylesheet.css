@@ -248,7 +248,7 @@ a {
 
 .footer-nav a {
     display: block;
-    padding: 1% 2%;
+    padding: 0 1%;
     font-size: 1.5rem;
     font-family: var(--secondary-font);
 }
