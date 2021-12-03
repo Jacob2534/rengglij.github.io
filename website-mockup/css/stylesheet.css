@@ -422,13 +422,10 @@ input[type=reset]:hover {
     }
 
     .page-sub-header {
-        text-align: center;
-        color: #333;
-        font-size: 2rem;
-        margin-bottom: -1.5rem;
-        font-family: var(--main-font);
+        font-size: 2.5rem;
+        
     }
-    
+
     .gallery {
         display: grid;
         grid-template-columns: 1fr 1fr;
