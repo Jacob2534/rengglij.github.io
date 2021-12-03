@@ -88,23 +88,26 @@ a {
 /* Home Page Styling */
 
 .top-bar {
-    display: flexbox;
+    display: grid;
     align-items: center;
     padding: 0 1%;
 }
 
 .social-media {
     padding: 0 1%;
-    grid-area: social-media;
+    grid-area: 1 / 1 / 2 / 2;
 }
 
 .social-media a {
-    display: inline-block;
+    display:inline-block;
     padding: 2%;
 }
 
 .cart-account {
-    grid-area: cart-account;
+    grid-area: 1 / 2 / 2 / 3;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .cart-account a {
@@ -116,16 +119,9 @@ a {
     max-width: 30px;
 }
 
-
-.search-bar, .social-media, .cart-account {
-    grid-area: 'social-media cart-account'
-                'search-bar search-bar';
-}
-
 .search-bar {
-    grid-area: search-bar;
+    grid-area: 2 / 1 / 2 / 3;
     height: 1.5rem;
-    align-items: center;
     display: block;
     border: 2px solid #333;
     border-radius: 5px;
