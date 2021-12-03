@@ -337,13 +337,15 @@ path {
 }
 
 .top-bar {
+    margin: 0 auto;
+    padding: 0;
     align-items: center;
-    grid-template-columns: 2fr 4fr 2fr;
 }
 
 .search-bar, .social-media, .cart-account {
     grid-area: auto;
-    align-items: center;
+    padding: 0;
+    margin: 0 auto;
 }
 
 .search-bar:focus-within .search-box::placeholder {
