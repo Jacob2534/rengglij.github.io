@@ -248,7 +248,7 @@ a {
 
 .footer-nav a {
     display: block;
-    padding: 0 1%;
+    padding: 1% 2%;
     font-size: 1.5rem;
     font-family: var(--secondary-font);
 }
@@ -369,12 +369,10 @@ fieldset {
 
 .contact-form input[type=submit] {
     background-color: salmon;
-    display: inline-block;
 }
 
 .contact-form input[type=reset] {
     background-color: darkgreen;
-    display: inline-block;
 }
 
 .contact-form input[type=submit],
