@@ -145,7 +145,7 @@ a {
 }
 
 .logo {
-    margin:0 auto;
+    margin:4% auto;
     width: 100%;
     grid-area: logo;
 }
