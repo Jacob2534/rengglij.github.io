@@ -554,19 +554,6 @@ input[type=reset]:hover {
         width: 90%;
     }
 
-    .gallery-item > figure > img {
-        width: 100%;
-        clip-path: inset(5% 0 25% 0);
-    }
-
-    .gallery-item-1, .gallery-item-2 {
-        margin-top: -15%;
-    }
-
-    .gallery-item-3, .gallery-item-4 {
-        margin-top: -30%;
-    }
-
     .contact-top-bar {
         grid-template-columns: 2fr 4fr 2fr;
     }
