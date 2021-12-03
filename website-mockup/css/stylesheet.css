@@ -319,6 +319,14 @@ a {
     padding: .125rem;
 }
 
+.contact-top-bar {
+    grid-template-columns: 2fr 4fr 2fr;
+}
+
+.contact-search-bar, .contact-social-media, .contact-cart-account {
+    grid-area: auto;
+}
+
 .contact-search-box {
     border: none;
     background-color: transparent;
@@ -642,11 +650,6 @@ input[type=reset]:hover {
 
     .contact-search-bar, .contact-social-media, .contact-cart-account {
         grid-area: auto;
-    }
-
-    .contact-search-bar {
-        width: 100%;
-        align-items: center;
     }
 
     .contact-form {
