@@ -92,12 +92,11 @@ a {
     display: grid;
     grid-template-areas: 'social-media cart-account'
                             'search-bar search-bar'
-                                'logo logo'
+                                  'logo logo'
                          'page-sub-header page-sub-header';
 }
 
 .top-bar {
-    display: grid;
     align-items: center;
     padding: 0 1%;
 }
@@ -136,8 +135,6 @@ a {
     height: 1.5rem;
     display: block;
     border: 2px solid #333;
-    border-radius: 5px;
-    border-color: #333;
     display: flex;
     padding: .125rem;
 }
@@ -154,13 +151,13 @@ a {
     height: inherit;
 }
 
-.search-bar:focus-within .search-box::placeholder {
+.search-bar:focus-within .contact-search-box::placeholder {
     color: transparent;
     border: none;
 }
 
 .logo {
-    margin: 0 auto;
+    margin: 4% auto;
     width: 100%;
     grid-area: logo;
 }
@@ -172,7 +169,6 @@ a {
 
 .page-sub-header {
     text-align: center;
-    display: block;
     color: #333;
     font-size: 2rem;
     margin-top: -1.5rem;
