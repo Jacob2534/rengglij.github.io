@@ -88,9 +88,8 @@ a {
 /* Home Page Styling */
 
 .top-bar {
-    display: grid;
+    display: inline-block;
     align-items: center;
-    position: relative;
     padding: 0 1%;
 }
 
