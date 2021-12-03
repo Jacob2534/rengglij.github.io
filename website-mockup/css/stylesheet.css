@@ -521,19 +521,6 @@ input[type=reset]:hover {
         
     }
 
-    .gallery-item > figure > img {
-        width: 100%;
-        clip-path: inset(10% 0 30% 0);
-    }
-
-    .gallery-item-1, .gallery-item-2 {
-        margin-top: -20%;
-    }
-
-    .gallery-item-3, .gallery-item-4 {
-        margin-top: -45%;
-    }
-
     .footer-nav a {
         display: inline-block;
     }
