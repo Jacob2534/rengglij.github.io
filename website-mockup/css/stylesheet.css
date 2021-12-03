@@ -90,20 +90,23 @@ a {
 }
 
 .social-media {
+    display:flex;
+    align-items: center;
     padding: 0 1%;
-    grid-area: 1 / 1 / 2 / 2;
 }
 
 .social-media a {
     display: inline-block;
     padding: 2%;
+    grid-area: social-media;
 }
 
 .cart-account {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    grid-area: 1 / 2 / 2 / 3;
+    padding: 2%;
+    grid-area: cart-account;
 }
 
 .cart-account a {
@@ -113,34 +116,6 @@ a {
 .social-media img, .cart-account img {
     width: 100%;
     max-width: 30px;
-}
-
-.search-bar {
-    grid-area: 2 / 1 / 2 / 3;
-    height: 1.5rem;
-    display: block;
-    border: 2px solid #333;
-    border-radius: 5px;
-    border-color: #333;
-    display: flex;
-    padding: .125rem;
-}
-
-.search-box {
-    border: none;
-    background-color: transparent;
-    outline: none;
-    width: 100%;
-}
-
-.search-icon {
-    width: inherit;
-    height: inherit;
-}
-
-.search-bar:focus-within .search-bar::placeholder {
-    color: transparent;
-    border:none;
 }
 
 .logo {
@@ -320,7 +295,6 @@ input[type=reset]:hover {
         width:100%;
         
     }
-
     .gallery {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -363,11 +337,11 @@ input[type=reset]:hover {
 
     .logo {
         margin: 4% auto;
-        width: 80%;
+        width: 100%;
     }
     
     .logo > a > img {
-        width:80%;
+        width:100%;
         
     }
 
@@ -428,6 +402,11 @@ input[type=reset]:hover {
 
 @media (min-width:800px) {
 
+    body {
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+
     .logo {
         margin: 4% auto;
         width: 100%;
@@ -436,11 +415,6 @@ input[type=reset]:hover {
     .logo > a > img {
         width:100%;
         
-    }
-
-    body {
-        margin: 0 auto;
-        width: 90%;
     }
 
     .top-bar {
@@ -598,17 +572,18 @@ input[type=reset]:hover {
 }
 
 @media (min-width:1400px) {
+
     body {
         max-width: 1600px;
     }
 
     .logo {
         margin: 4% auto;
-        width: 60%;
+        width: 100%;
     }
     
     .logo > a > img {
-        width:60%;
+        width:100%;
         
     }
 }
