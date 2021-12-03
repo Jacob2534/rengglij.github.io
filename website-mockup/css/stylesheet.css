@@ -116,6 +116,14 @@ a {
     max-width: 30px;
 }
 
+.top-bar {
+    grid-template-columns: 2fr 4fr 2fr;
+}
+
+.search-bar, .social-media, .cart-account {
+    grid-area: auto;
+}
+
 .search-bar {
     grid-area: 2 / 1 / 2 / 3;
     height: 1.5rem;
@@ -385,20 +393,12 @@ input[type=reset]:hover {
 
 @media (min-width:600px) {
 
-    .top-bar {
-        grid-template-columns: 2fr 4fr 2fr;
-    }
-
-    .search-bar, .social-media, .cart-account {
-        grid-area: auto;
-    }
     
     .contact-logo {
         margin: 0 auto;
         width: 90%;
     }
 
-    
     .contact-top-bar {
     grid-template-columns: 2fr 4fr 2fr;
     }
