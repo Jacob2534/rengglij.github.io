@@ -320,6 +320,7 @@ input[type=reset]:hover {
         width:100%;
         
     }
+
     .gallery {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -350,6 +351,14 @@ input[type=reset]:hover {
 
     .search-bar {
         height: 2rem;
+    }
+
+    .top-bar {
+        grid-template-columns: 2fr 4fr 2fr;
+    }
+
+    .search-bar, .social-media, .cart-account {
+        grid-area: auto;
     }
 
     .logo {
