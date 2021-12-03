@@ -78,20 +78,50 @@ a {
 
 .splash-page-heading p {
     text-align: center;
-    color: #333;
+    color: var(--main-link-color);
     font-size: 2rem;
     margin-top: -1.5rem;
     font-family: var(--main-font);
+    
 }
 
+/* Home Page Styling */
 
+.top-bar {
+    display: grid;
+    align-items: center;
+    padding: 0 1%;
+}
 
 .page-header {
     padding: 1%;
     display: grid;
-    grid-template-areas: 'social-media cart-account'
+    grid-template-areas: 'social-media search-bar cart-account'
                                 'logo logo'
                          'page-sub-header page-sub-header';
+}
+
+.search-bar {
+    grid-area: search-bar;
+    height: 1.5rem;
+    display: block;
+    border: 2px solid #333;
+    border-radius: 5px;
+    border-color: #333;
+    display: flex;
+    padding: .125rem;
+}
+
+.search-box {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    width: 100%;
+}
+
+.search-icon {
+    width: inherit;
+    height: inherit;
 }
 
 .social-media {
@@ -121,6 +151,11 @@ a {
 .social-media img, .cart-account img {
     width: 100%;
     max-width: 30px;
+}
+
+.search-bar:focus-within .search-box::placeholder {
+    color: transparent;
+    border: none;
 }
 
 .logo {
