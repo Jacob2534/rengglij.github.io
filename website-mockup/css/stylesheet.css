@@ -644,6 +644,16 @@ input[type=reset]:hover {
         grid-area: auto;
     }
 
+    .contact-search-bar {
+        width: 100%;
+        align-items: center;
+    }
+
+    .contact-search-box {
+        width: 100%;
+        align-items: center;
+    }
+
     .contact-form {
         margin: 0 auto 30% auto;
         width: 90%;
